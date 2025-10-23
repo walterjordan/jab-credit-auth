@@ -24,3 +24,9 @@ body {
   color: var(--foreground);
   font-family: Arial, Helvetica, sans-serif;
 }
+/* JAB brand tweaks */
+:root {
+  --jab-accent: #7fff41;
+}
+input[type="checkbox"], input[type="radio"] { accent-color: var(--jab-accent); }
+
