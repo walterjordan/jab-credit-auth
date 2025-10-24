@@ -220,12 +220,4 @@ export default function CreditCardAuthorizationForm() {
       </div>
 
       {/* Utility input style */}
-      <style jsx global>{`
-        .input {
-          @apply w-full border rounded-lg p-3 focus:outline-none focus:ring-2 focus:ring-jabNeon/80 focus:border-jabNeon/80;
-        }
-      `}</style>
-    </div>
-  );
-}
-
+    
