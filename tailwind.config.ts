@@ -1,21 +1,25 @@
 import type { Config } from "tailwindcss";
 
 const config: Config = {
-  content: ["./src/**/*.{js,ts,jsx,tsx}"],
+  content: [
+    "./src/pages/**/*.{js,ts,jsx,tsx,mdx}",
+    "./src/components/**/*.{js,ts,jsx,tsx,mdx}",
+    "./src/app/**/*.{js,ts,jsx,tsx,mdx}",
+  ],
   theme: {
     extend: {
       colors: {
-        jabBlue:   "#010e63", // brand primary
-        jabBlue2:  "#004085",
+        jabNeon: "#7FFF41",
         jabPurple: "#630183",
-        jabNeon:   "#7fff41",
-        jabPink:   "#ff00ff",
-      },
-      boxShadow: {
-        neon: "0 0 0 3px rgba(127,255,65,.35)",
+        jabBlue: "#010E63",
+        jabMagenta: "#FF00FF",
+        jabNavy: "#004085",
+        jabWhite: "#FFFFFF",
+        jabBlack: "#000000",
       },
     },
   },
   plugins: [],
 };
 export default config;
+
