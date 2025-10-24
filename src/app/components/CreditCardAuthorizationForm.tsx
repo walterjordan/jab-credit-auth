@@ -206,13 +206,11 @@ export default function CreditCardAuthorizationForm() {
 
             {/* Submit */}
             <button
-              disabled={submitting}
-              className="w-full rounded-xl bg-jabBlue text-white font-semibold py-3 shadow-lg hover:bg-jabPurple transition
-                         ring-2 ring-transparent hover:ring-jabNeon/70 disabled:opacity-60"
-            >
-              {submitting ? "Submitting…" : "Authorize Payment"}
-            </button>
-
+  disabled={submitting}
+  className={`w-full rounded-xl bg-jabBlue text-white font-semibold py-3 shadow-lg hover:bg-jabPurple transition ring-2 ring-transparent hover:ring-jabNeon/70 disabled:opacity-60`}
+>
+  {submitting ? "Submitting…" : "Authorize Payment"}
+</button>
             <p className="text-xs text-center text-slate-500">
               By submitting, you authorize Jordan &amp; Borden Automation Consulting to process payments for the selected services and ad spend.
             </p>
