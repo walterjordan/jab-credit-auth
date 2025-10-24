@@ -1,4 +1,14 @@
 @import "tailwindcss";
+/* Tailwind v4 theme tokens */
+@theme {
+  --color-jabNeon: #7FFF41;
+  --color-jabPurple: #630183;
+  --color-jabBlue: #010E63;
+  --color-jabMagenta: #FF00FF;
+  --color-jabNavy: #004085;
+  --color-jabWhite: #ffffff;
+  --color-jabBlack: #000000;
+}
 
 :root {
   --background: #ffffff;
