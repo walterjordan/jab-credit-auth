@@ -219,5 +219,4 @@ export default function CreditCardAuthorizationForm() {
         </form>
       </div>
 
-      {/* Utility input style */}
     
